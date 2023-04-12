@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class RecommendationsController {
     @GetMapping("/")
     public String helloworld(){
-        return "To-do Application!";
+        return "To-do Application !";
     }
 }
